@@ -1,37 +1,66 @@
-h1 {font-size: 11em;
-    font-family: ;
-    text-align: center;
-    color: goldenrod;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000}
+* {
+    background-color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-h4 {font-size: 6em;
-    font-family: ;
-    text-align: center;
-    color: goldenrod;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    }
-nav {text-align: right;
-     color: white;
-     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-     }
+button {
+    background-color:goldenrod;
+    padding: 20px; 
+    border-radius: 50%;
+    font-size: 50px;
+}
 
-p {text-align: center;
-    color: white;}
+.buttonDropdown {
+    display: none;
+    position: absolute;
+    background-color: gold;
 
-div {text-align: center;}
+}
 
-body {
-        background-color: purple;
-        background-image: url("https://static.wixstatic.com/media/8de3b6_35f03e1f70364ccbbd4a893399e48710~mv2_d_3515_2660_s_4_2.jpg/v1/fill/w_1820,h_1370,al_c,q_90,usm_0.66_1.00_0.01/IMG_0479.jpg");
-        background-position: center top;
-        background-attachment: scroll;
-        background-repeat: no-repeat;
-        }
+.dropdown:hover .buttonDropdown {
+    display: block;
+}
 
-a:hover {
-        colour: purple;
-        }
+a {
+    color: black;
 
-a[href*="table"] {
-                  colour:white;
-                  }
+}
+
+.buttonDropdown a {
+    float: none;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: goldenrod;
+}
+
+
+.dropdown {
+    float: right;
+}
+
+header h1 {
+    background-color: goldenrod;
+    margin: 0px 75px 0px 0px;
+    font-size: 100px;
+}
+
+header h4 {
+    background-color: goldenrod;
+    margin: 0px 875px 0px 0px;
+    font-size: 50px;
+    display: inline;
+}
+
+span {
+    display: inline;
+}
+
+.buttonDropdown a:hover {
+    background-color: hotpink;
+}
+
+img {
+    border: solid goldenrod;
+    align-content: center;
+    padding: 30px;
