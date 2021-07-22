@@ -3,9 +3,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+nav {
+    background-color:goldenrod;
+}
+
 button {
     background-color:goldenrod;
-    padding: 20px; 
+    padding: 60px;
     border-radius: 50%;
     font-size: 50px;
 }
@@ -23,7 +27,8 @@ button {
 
 a {
     color: black;
-
+    font-size: 35px;
+    border: dotted purple;
 }
 
 .buttonDropdown a {
@@ -42,7 +47,8 @@ a {
 header h1 {
     background-color: goldenrod;
     margin: 0px 75px 0px 0px;
-    font-size: 100px;
+    font-size: 200px;
+    color: black;
 }
 
 header h4 {
@@ -50,6 +56,11 @@ header h4 {
     margin: 0px 875px 0px 0px;
     font-size: 50px;
     display: inline;
+    color: black;
+}
+
+header {
+    background-color: goldenrod
 }
 
 span {
@@ -57,10 +68,32 @@ span {
 }
 
 .buttonDropdown a:hover {
-    background-color: hotpink;
+    background-color: black;
+    color: goldenrod;
 }
 
 img {
-    border: solid goldenrod;
     align-content: center;
     padding: 30px;
+    height:650px;
+    min-height: 350px;
+    }
+
+figcaption {
+    color: white;
+}
+
+figure {
+    border: solid goldenrod;
+}
+
+figure p {
+}
+
+figure p {
+    text-align: left;
+    display:inline;
+    color: goldenrod;
+    text-shadow: rgb(92, 70, 15);
+    font-size: 75px;
+}
