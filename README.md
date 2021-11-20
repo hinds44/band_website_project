@@ -1,2 +1,2 @@
-# band_website_project
-Attempting to build a website for my function band
+# Simple Website Project
+Building a website for my function band
