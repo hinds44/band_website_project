@@ -1,0 +1,111 @@
+:root {
+    /*border: 1px solid black;*/
+    font-family: 'Roboto', Arial, sans-serif;
+    --gold: goldenrod;
+    --shadow: black;
+    --border: 3px solid var(--gold);
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    text-shadow: 1px 0 0 var(--shadow);
+    color: var(--gold);
+    font-size: 3.25rem;
+}
+
+h1 {
+    font-size: 7.5rem;
+    margin-left: 12.25rem;
+}
+
+h2 {
+    margin-top: -5.5rem;
+}
+
+h3 {
+    color: black;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    font-size: 1.25rem;
+    padding: 1rem 2.25rem;
+}
+
+nav {
+    border-top: var(--border);
+    border-bottom: var(--border);
+    margin-left: 28rem;
+    margin-right: 28rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a {
+    color: black;
+}
+
+li a:hover {
+    color: var(--gold);
+}
+
+figcaption {
+    text-align: center;
+}
+
+.goldtitle {
+    display: block;
+}
+
+.goldphoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43.75rem;
+    height: 43.75rem;
+    border-radius: 35%;
+    border: var(--border);
+}
+
+.social-media {
+    float: right;
+}
+
+#facebook,
+#instagram {
+    height: 3.75rem;
+    width: 3.75rem;
+}
+
+#photo {
+    border: var(--border);
+    padding: 1.25rem 1.25rem 1rem;
+    margin-left: 56.25rem;
+    margin-right: 56.25rem;
+    border-radius: 10%;
+}
+
+#photo-para {
+    display: inline-block;
+}
+
+#repertoire {
+    border: var(--border);
+    font-size: 2.25rem;
+    padding: 2.5rem;
+    margin-left: 37.5rem;
+    margin-right: 37.5rem;
+    text-align: center;
+}
+
+#dance {
+    font-size: 40rem;
+}
