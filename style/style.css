@@ -87,7 +87,7 @@ figcaption {
 
 #photo {
     border: var(--border);
-    padding: 1.25rem 1.25rem 1rem;
+    padding: 1.25rem;
     margin-left: 56.25rem;
     margin-right: 56.25rem;
     border-radius: 10%;
@@ -107,5 +107,5 @@ figcaption {
 }
 
 #dance {
-    font-size: 40rem;
+    font-size: 4rem;
 }
